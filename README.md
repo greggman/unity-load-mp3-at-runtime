@@ -18,7 +18,7 @@ IEnumerator LoadHelper(string uri)
 
     if(www.isNetworkError || www.isHttpError)
     {
-        statusText.text = www.error;
+        Debug.Log(www.error);
     }
     else
     {
